@@ -1,0 +1,389 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+header {
+  background-color: black;
+  float: right;
+  font-size: 20px;
+  color: burlywood;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  margin-top: -10px;
+  z-index: 12;
+}
+img {
+  width: 80px;
+  height: 80px;
+}
+
+.header-logo {
+  float: left;
+  padding-left: 20px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.header-left li {
+  float: left;
+  padding: 20px 20px;
+}
+.header-right {
+  text-align: right;
+  position: sticky;
+  float: right;
+  padding-top: 30px;
+  margin-left: 500px;
+}
+.header-right a {
+  float: right;
+  color: white;
+  padding-right: 25px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: rgb(224, 174, 9);
+  display: inline-block;
+  padding: 10px 20px;
+  opacity: 0.8;
+  border-radius: 4px;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+.btn:hover {
+  opacity: 1;
+  border-radius: 0;
+  background: red;
+  text-decoration: none;
+}
+.main {
+  padding-top: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  height: 4000px;
+  height: auto;
+  background-color: white;
+}
+.judul {
+  text-align: center;
+  font-size: 40px;
+}
+.penulis {
+  padding-top: 50px;
+  font-size: 24px;
+}
+.imageNewton {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.N {
+  font-size: 18px;
+}
+.N1 {
+  font-size: 18px;
+  text-align: justify;
+}
+/* promo */
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-container .banner {
+  background: linear-gradient(
+    -55deg,
+    #ff7675 29%,
+    #d63031 29.1%,
+    #d63031 68%,
+    #ff7675 68.1%
+  );
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 5px 10px #0005;
+  overflow: hidden;
+}
+.banner-container .banner .newton {
+  flex: 1 1 250px;
+  padding: 15px;
+  text-align: center;
+}
+.banner-container .banner .newton img {
+  height: 80px;
+  width: 50%;
+}
+.banner-container .banner .content {
+  flex: 1 1 250px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+.banner-container .banner .content span {
+  color: #eee;
+  font-size: 25px;
+}
+.banner-container .banner .content span {
+  color: #fff;
+  font-size: 40px;
+}
+.banner-container .banner .content p {
+  color: #eee;
+  font-size: 20px;
+  padding: 10px;
+}
+.banner-container .banner .content .btn {
+  display: block;
+  height: 40px;
+  width: 150px;
+  line-height: 40px;
+  background: #fff;
+  color: #d63031;
+  margin: 5px auto;
+  text-decoration: none;
+}
+
+.N2 {
+  font-size: 18px;
+  text-align: justify;
+}
+.N31 {
+  font-size: 18px;
+  text-align: justify;
+}
+.N32 {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.Newton1 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Newton2 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.Newton3 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.HN1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.HN1 .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "comic sans ms";
+  color: #364f6b;
+}
+h2 {
+  font-family: "comic sans ms";
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #364f6b;
+  width: 100%;
+  line-height: 50px;
+}
+.hn1 {
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+a.tbl {
+  background: #f7c04a;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 15px 20px 15px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+}
+a.tbl:hover {
+  background: black;
+  text-decoration: none;
+}
+
+.iframe {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* testimoni */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 45px 45px 90px;
+}
+.testimoni {
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  padding: 40px 25px 25px;
+  flex-grow: 1;
+  flex-basis: 280px;
+  position: relative;
+  max-width: 360px;
+}
+.testimoni-text {
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 21px;
+  margin-bottom: 1.5625rem;
+}
+.testimoni-img {
+  display: inline-block;
+  width: 80px;
+  margin-right: 10px;
+}
+.testimoni-img img {
+  max-width: 100%;
+  vertical-align: bottom;
+  border-radius: 80%;
+}
+.testimoni-info {
+  display: inline-block;
+}
+.testimoni-nama {
+  font-weight: bold;
+  font-size: 0.625rem;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+.testimoni-pekerjaan {
+  font-weight: normal;
+  font-size: 0.5rem;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+}
+
+.body {
+  height: 300px;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.form {
+  height: 700px;
+  padding-top: 10px;
+  background-color: rgb(255, 213, 159);
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 400px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid;
+  border-color: #dee7ec;
+}
+
+.submit {
+  padding: 15px 40px;
+  background-color: rgb(224, 174, 9);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(99, 76, 0);
+}
+
+.submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  height: 100px;
+  background-color: black;
+  color: white;
+  margin-top: -12px;
+}
+
+.footer-logo {
+  float: left;
+  padding-left: 20px;
+  width: 33%;
+}
+
+.footer-copyright {
+  width: 33%;
+  text-align: center;
+}
+.footer-copyright p {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.footer-copyright span {
+  padding-right: 5px;
+}
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  width: 20px;
+  text-decoration: none;
+  border-radius: 50%;
+  color: darkgoldenrod;
+}
+
+.fa-copyright {
+  text-align: center;
+  width: 20px;
+  font-size: 20px;
+  margin: auto;
+}
+.footer-sosmed {
+  float: right;
+  padding-right: 30px;
+  text-align: right;
+  width: 33%;
+}

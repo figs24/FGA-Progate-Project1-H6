@@ -1,0 +1,56 @@
+/*for tablet*/
+@media all and (max-width: 1000px) {
+  .header-left ul {
+    width: 490px;
+  }
+  .header-logo {
+    padding-top: 10px;
+  }
+  .footer-sosmed {
+    width: 50%;
+  }
+  .header-right {
+    margin-left: 120px;
+  }
+  .container {
+    width: 100%;
+  }
+  .main {
+    padding: 70px 50px;
+  }
+}
+/*for smarthphone*/
+@media (max-width: 670px) {
+  .container {
+    width: 80%;
+  }
+  .header-left {
+    display: none;
+  }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    float: left;
+    display: block;
+    padding-left: 400px;
+    padding-top: 10px;
+  }
+  .main {
+    padding: 70px 50px;
+  }
+  .footer-sosmed {
+    width: 50%;
+  }
+  footer {
+    height: 200px;
+  }
+  .footer-logo img {
+    width: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .footer-copyright span {
+    padding-right: 50px;
+  }
+}
